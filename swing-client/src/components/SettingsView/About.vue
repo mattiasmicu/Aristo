@@ -1,7 +1,7 @@
 <template>
     <div class="aboutswingmusic">
-        <div class="version">Swing Music v{{ settings.version }}</div>
-        Swing Music is a labor of love developed by
+        <div class="version">Aristo v{{ settings.version }}</div>
+        Aristo is a labor of love originally developed by
         <a
             href="https://github.com/cwilvx"
             target="_blank"

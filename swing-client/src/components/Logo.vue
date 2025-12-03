@@ -1,9 +1,11 @@
 <template>
-  <router-link class="swing-logo rounded-md" :to="{ name: 'Home' }"> <LogoSvg /> <span>Swing Music</span> </router-link>
+  <router-link class="swing-logo rounded-md" :to="{ name: 'Home' }">
+    <img src="/favicon.ico" alt="Aristo" class="logo-icon" />
+    <span>Aristo</span>
+  </router-link>
 </template>
 
 <script setup lang="ts">
-import LogoSvg from "@/assets/icons/logos/logo-fill.light.svg";
 </script>
 
 <style lang="scss">
@@ -17,8 +19,9 @@ import LogoSvg from "@/assets/icons/logos/logo-fill.light.svg";
   background-image: linear-gradient(37deg, rgb(29, 28, 28), transparent);
   transition: background-color 0.2s ease-out;
 
-  svg {
-    transform: scale(1.25);
+  .logo-icon {
+    width: 28px;
+    height: 28px;
   }
 
   &:hover {

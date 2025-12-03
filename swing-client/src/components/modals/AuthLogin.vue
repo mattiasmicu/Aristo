@@ -4,7 +4,7 @@
             <section class="left">
                 <header class="left-header">
                     <h1 class="title">Welcome</h1>
-                    <p class="subtitle">Sign in to continue your journey with Swing Music.</p>
+                    <p class="subtitle">Sign in to continue your journey with Aristo.</p>
                 </header>
 
                 <form class="form" @submit.prevent="loginUser">
